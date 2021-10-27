@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="Q-@?./_JK0c0}pfthF6^" x="-240" y="4"><comment>When the micro:bit isn't shaking, a smiley face appears.</comment><statement name="HANDLER"><block type="device_show_leds" id="_6vKW@}]6oOgv}X8_a5A"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="#YZi!!nz;jLv)!]RDQZn"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="iONJO-s8%G.wxo00R6Ph" x="0" y="0"><field name="NAME">Gesture.Shake</field><comment>When the user shakes the micro:bit, a frown face appears.</comment></block></xml>
